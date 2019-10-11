@@ -1,0 +1,69 @@
+
+body {
+	background: white;
+	color: #009;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	min-width: 250px;
+}
+
+table {
+	min-width: 100%;
+}
+
+table td {
+	align: center;
+}
+
+table.tool {
+	border: 2px solid #009;
+	border-collapse: collapse;
+}
+
+table.tool td {
+	border: 2px solid #009;
+}
+
+.content {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+.content h3 {
+	margin: 0;
+	font-weight: bold;
+}
+
+button {
+	min-width: 100%;
+	border: none;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	background: none;
+}
+
+button:hover {
+	background: lightgray;
+	-webkit-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+}
+
+button:active {
+	background: gray;
+	-webkit-transition-duration: 0s;
+	transition-duration: 0s;
+}
+
+button:focus {
+	outline: 0;
+}
+
+.t-head {
+	font-weight: bold;
+	color: white;
+	background: #009;
+}
+
+#foot {
+
+	color: gray;
+	font-style: italic;
+}

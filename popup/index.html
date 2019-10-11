@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SpeechWire Editor</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="controls.js"></script>
+</head>
+<body>
+
+	<div class="header">
+		<table>
+			<tr>
+				<td style="padding-left: 10px"><img src="icon_32.png"></td>
+				<td align="center"><h2>SpeechWire Editor</h2></td>
+			</tr>
+		</table>
+	</div>
+	<div class="content">
+		<h3>Tools</h3>
+		<p>Use the buttons below to make changes to the judging page to fit your preferences.</p>
+		<table class="tool">
+			<colgroup>
+				<col style="width: 50%" />
+				<col style="width: 50%" />
+			</colgroup>
+			<tr>
+				<td class="t-head" colspan="2">Comment font size</td>
+			</tr>
+			<tr>
+				<td><button id="text-up">Larger</button></td>
+				<td><button id="text-down">Smaller</button></td>
+			</tr>
+		</table>
+		
+		<div style="margin: 10px;"></div>
+		
+		<table class="tool">
+			<colgroup>
+				<col style="width: 33%" />
+				<col style="width: 33%" />
+				<col style="width: 33%" />
+			</colgroup>
+			<tr>
+				<td class="t-head" colspan="3">Discard button</td>
+			</tr>
+			<tr>
+				<td><button id="hide">Hide</button></td>
+				<td><button id="alert">Alert</button></td>
+				<td><button id="show">Show</button></td>
+			</tr>
+		</table>
+		
+		<p id="notif"></p>
+		
+		<p id="foot">2018 v 1.0.0</p>
+	</div>
+	
+</body>
+</html>
